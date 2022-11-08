@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #121212;
+    font-family: "Bebas Neue", Arial;
+}
+
+header{
+    background-color: #121212;
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+
+
+.title{
+    font-family: "Bebas Neue", Arial;
+    font-size: 40px;
+}
+
+#title2{
+     color: #bd7121;
+     font-family: "Bebas Neue", Arial;
+     font-size: 45px;
+}
+
+section{
+    padding: 20px;
+    background-image: url(./images/jovem-saudavel-atleta-fazendo-exercicios-flexoes-na-academia_155003-35469.webp);
+    background-size: cover;
+    overflow:hidden;
+}
+
+.formContainer{
+    max-width: 300px;
+    background-color: #242020;
+    padding: 20px;
+    float:right;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    color:#bd7121;
+    font-size: 20px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border:none;
+    margin-bottom: 10px;
+}
+
+.enviar{
+    color:white;
+    background-color: #bd7121;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.enviar:hover{
+    transform: scale(1.04);
+
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    
+    background-image: url(./images/keyboard-arrow-down-1780936-1517439.jpeg); 
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+footer{
+    background-color: rgb(34, 33, 33);
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    border-radius: 100%;
+    width: 300px;
+    border-color: #bd7121;
+    border-style: inherit;
+    
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+
+}
+ 
+
+@media screen and (max-width: 1025px){
+
+       .header{
+            float:none;
+            text-align: center;
+       }
+
+       .picture{
+        margin-bottom: 50px;
+       }
+   
+}
+
+@media screen and (max-width: 769px){
+
+    .picture{
+        margin-bottom: 80px;
+    }
+  
+}
+
+@media screen and (max-width: 481px){
+
+    .picture{
+        margin-bottom: 80px;
+    }
+  
+}
+
+@media screen and (max-width: 320px){
+
+    .picture{
+        margin-bottom: 80px;
+    }
+
+}
